@@ -57,22 +57,17 @@
 #base .seccion1__items h2 {
   font: normal 32px/1 "Pacifico", cursive;
 }
-#base .seccion1__btn {
-  display: flex;
-  flex-direction: row;
-  padding: 32px 0 16px 0px;
-}
-#base .seccion1__btn a {
-  background-color: black;
-  min-width: 120px;
+#base .seccion1 .btn--seccion {
+  display: inline-block;
+  width: 120px;
   padding: 4px 8px;
-  border-radius: 7px;
-  color: white;
+  border-radius: 14px;
   text-decoration: none;
   text-align: center;
-  align-items: center;
+  color: white;
+  background-color: #000000;
 }
-#base .seccion1__btn a:hover {
+#base .seccion1 .btn--seccion:hover {
   color: #000000;
   background-color: #FCDEA4;
 }
@@ -82,22 +77,17 @@
 #base .seccion2__title {
   font: normal 32px/1 "Pacifico", cursive;
 }
-#base .seccion2__btn {
-  display: flex;
-  flex-direction: row;
-  padding: 32px 0 16px 0px;
-}
-#base .seccion2__btn a {
-  background-color: black;
-  min-width: 120px;
+#base .seccion2 .btn--seccion {
+  display: inline-block;
+  width: 120px;
   padding: 4px 8px;
-  border-radius: 7px;
-  color: white;
+  border-radius: 14px;
   text-decoration: none;
   text-align: center;
-  align-items: center;
+  color: white;
+  background-color: #000000;
 }
-#base .seccion2__btn a:hover {
+#base .seccion2 .btn--seccion:hover {
   color: #000000;
   background-color: #FCDEA4;
 }
@@ -111,22 +101,17 @@
 #base .seccion3__title {
   font: normal 32px/1 "Pacifico", cursive;
 }
-#base .seccion3__btn {
-  display: flex;
-  flex-direction: row;
-  padding: 32px 0 16px 0px;
-}
-#base .seccion3__btn a {
-  background-color: black;
-  min-width: 120px;
+#base .seccion3 .btn--seccion {
+  display: inline-block;
+  width: 120px;
   padding: 4px 8px;
-  border-radius: 7px;
-  color: white;
+  border-radius: 14px;
   text-decoration: none;
   text-align: center;
-  align-items: center;
+  color: white;
+  background-color: #000000;
 }
-#base .seccion3__btn a:hover {
+#base .seccion3 .btn--seccion:hover {
   color: #000000;
   background-color: #FCDEA4;
 }

@@ -1,24 +1,26 @@
-//Colores
+//Map
+$colores: (
+    primario: #d9d9d9,
+    1rio-complementario: #f6f2f2,
+    secundario: #DF9C16,
+    2rio-complemetario1: #F7A400,
+    2rio-complemetario2: #FFD600,
+    negro: black,
+    blanco: white,
+    hover: #FCDEA4,
+    opacity-bg: rgba(0, 0, 0, 0.35),
+    text-shadow1: rgb(11, 11, 11) 2px 2px 1px,
+    gradiente-navbar:linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%),
+    gradiente-body: linear-gradient(315deg, $color-primario 0%, $color-1rio-complementario 74%),
+);
 
-$color-secundario: #DF9C16;
-$color-2rio-complementario1: #F7A400;
-$color-2rio-complementario2:#FFD600;
-$color-primario: #d9d9d9;
-$color-1rio-complementario: #f6f2f2;
-$color-hover: #FCDEA4;
-$color-opacity-bg: rgba(0, 0, 0, 0.35);
-$color-text-shadow1: rgb(11, 11, 11) 2px 2px 1px;
-$color-blanco: #ffff;
-$color-negro: #000000; 
 
 //tipografia
-
 $fuente-acento-intro: normal 60px/2 'Pacifico', cursive;
 $fuente-subtitle-intro: italic 32px/1 'Poppins', sans-serif;
 $fuente-acento-seccion: normal 32px/1 'Pacifico', cursive;
 $fuente-acento-footer: normal 20px/2 'Pacifico', cursive;
 
+
 //Media
-
-$tablet: 768px;
-
+$tablet:768px;

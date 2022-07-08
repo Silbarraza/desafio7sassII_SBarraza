@@ -1,6 +1,8 @@
+//index
+
 #base {
-    background-color: $color-primario;
-    background-image: linear-gradient(315deg, $color-primario 0%, $color-1rio-complementario 74%);
+    background-color: map-get($colores, primario);
+    background-image: map-get($colores, gradiente-body);
 
     @import 'header';
 
@@ -9,3 +11,6 @@
     @import 'footer';
 
 }
+
+//page1
+

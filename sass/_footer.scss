@@ -1,11 +1,9 @@
 .footer {
-    background-color: #DF9C16;
-    background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+    background-color: map-get($colores, secundario);
+    background-image: map-get($colores, gradiente-navbar);
 
-    &__logo {
-        width: 100px;
-        height: auto;
-        padding: 4px 0;
+    .mi__logo--footer {
+        @extend .mi-logo;
     }
 
     &__info h5 {
@@ -13,7 +11,7 @@
     }
 
     &__info ul li a:hover {
-        color: $color-negro;
+        color: map-get($colores, negro);
         text-decoration: underline;
     }
 

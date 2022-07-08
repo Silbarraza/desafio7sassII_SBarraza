@@ -10,8 +10,8 @@
     align-items: center;
 
     &__items {
-        background-color: $color-opacity-bg;
-        text-shadow: $color-text-shadow1;
+        background-color: map-get($colores, opacity-bg);
+        text-shadow: map-get($colores, text-shadow1);
 
         h1 {
             font: $fuente-acento-intro;
@@ -36,73 +36,34 @@
 
 /* Sección 1 Productos */
 .seccion1 {
-    background-color: $color-blanco;
+    background-color: map-get($colores, blanco);
 
     &__items h2 {
         font: $fuente-acento-seccion; 
     }
 
-    &__btn {
-        display: flex;
-        flex-direction: row;
-        padding: 32px 0 16px 0px;
-
-        a {
-            background-color: black;
-            min-width: 120px;
-            padding: 4px 8px;
-            border-radius: 7px;
-            color: $color-blanco;
-            text-decoration: none;
-            text-align: center;
-            align-items: center;
-
-            &:hover {
-                color: $color-negro;
-                background-color: $color-hover;
-
-            }
-        }
-        
-    } 
+    .btn--seccion {
+        @include btn;
+    }
 }
 /* Seccion 2 Equipo */
 .seccion2 {
-    background-color: $color-blanco;
+    background-color: map-get($colores, blanco);
 
     &__title {
         font: $fuente-acento-seccion;
     }
 
-    &__btn {
-        display: flex;
-        flex-direction: row;
-        padding: 32px 0 16px 0px;
-
-        a {
-            background-color: black;
-            min-width: 120px;
-            padding: 4px 8px;
-            border-radius: 7px;
-            color: $color-blanco;
-            text-decoration: none;
-            text-align: center;
-            align-items: center;
-
-            &:hover {
-                color: $color-negro;
-                background-color: $color-hover;
-
-            }
-        }
+    .btn--seccion {
+        @include btn;
         
-    } 
+    }
 }
 
 /* Seccion 3 Ubicacion e info */
 
 .seccion3 {
-    background-color: $color-blanco;
+    background-color: map-get($colores, blanco);
 
     &__foto {
         width: 50%;
@@ -112,28 +73,7 @@
     &__title {
         font: $fuente-acento-seccion;
     }
-   
-    &__btn {
-        display: flex;
-        flex-direction: row;
-        padding: 32px 0 16px 0px;
-
-        a {
-            background-color: black;
-            min-width: 120px;
-            padding: 4px 8px;
-            border-radius: 7px;
-            color: $color-blanco;
-            text-decoration: none;
-            text-align: center;
-            align-items: center;
-
-            &:hover {
-                color: $color-negro;
-                background-color: $color-hover;
-
-            }
-        }
-        
-    } 
+    .btn--seccion {
+        @include btn;
+    }
 }
