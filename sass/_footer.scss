@@ -3,10 +3,9 @@
     background-color: map-get($colores, secundario);
     background-image: map-get($colores, gradiente-navbar);
 
-    .footer__logo {
-        width: 100px;
-        height: auto;
-        padding: 4px 0;        
+    .mi-logo--footer {
+        @extend .mi-logo;
+        width: 110px;        
     }
 
     &__info h5 {

@@ -9,8 +9,8 @@
     <!-- Logo -->
     <link rel="shortcut icon" href="../img/logo400px.png">
 
-    <!-- Hoja de estilo propia -->
-    <link rel="stylesheet" href="../css/style.css">
+    <!-- Hoja de estilo-->
+    <link rel="stylesheet" href="../sass/main.css">
 
     <!-- Tipografía: Pacific y Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,9 +31,9 @@
 
 </head>
 
-<body>
+<body id="base__pg03">
     <!-- Header -->
-    <header class="container-fluid bg-color-propio">
+    <header class="header container-fluid bg-color-propio">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid align-items-end">
               <a class="navbar-brand" href="../index.html">
@@ -73,7 +73,7 @@
 
     <main class="container-fluid bg-color-seccion">
         <!-- Intro -->
-        <div class="intro__page3 row p-2 mb-4 text-white bg-dark ">
+        <div class="introi--page3 row p-2 mb-4 text-white bg-dark ">
             <div class="intro__itemspg3 col-fluid px-0 animate__animated animate__zoomIn">
               <h1 class="display-4 text-center py-4 mt-2 animate__animated animate__zoomIn">Servicios</h1>                            
             </div>
@@ -81,7 +81,7 @@
         
         <div class="row d-flex justify-content-around pb-2">
             <!-- Servicioss -->
-            <div class="col-md-8 px-2 border rounded bg-white">
+            <div class="seccion__pg3 col-md-8 px-2 border rounded">
                 
                 <div class="row pb-2 gx-5">
                     <h3 class="pg3__title text-center pt-3 pb-2">Nuestras propuestas</h3>
@@ -139,29 +139,21 @@
             <!-- Banner contacto -->
             <aside class="contactus__pg3 col-md-3 d-flex justify-content-center align-items-center pb-2 border rounded bg-white">
                 <!-- Contacto -->
-                <div class="contactus__pg3 rounded">
+                <div class="contactus__pg3 rounded p-2">
                     <p class="text-center">
-                        <img src="../img/logo400px.png" class="animate__animated animate__pulse animate__infinite pt-4 w-50" alt="Logo Cecil">
+                        <img src="../img/logo400px.png" class="animate__animated animate__pulse animate__infinite pt-3 w-50" alt="Logo Cecil">
                     </p>
                     
-                    <nav class="pg3__btn justify-content-center animate__animated animate__swing animate__delay-5s">
-                        <a href="./pages/productos.html">CONTACTANOS</a>
+                    <nav class="row justify-content-center animate__animated animate__swing animate__delay-5s">
+                        <a href="./pages/productos.html" class="pg3__btn">CONTACTANOS</a>
                     </nav>
-                </div>
-                <!-- <div class="card bg-color-propio">
-                    <img src="../img/logo400px.png" class="card-img-top animate__animated animate__heartBeat p-5" alt="Logo Cecil">
-                    <div class="card-body">
-                        <nav class="pg3__btn justify-content-center">                        
-                            <a href="./pages/productos.html">Click aquí</a>
-                        </nav>
-                    </div>
-                </div> --> 
+                </div> 
             </aside>
         </div>
     </main> 
 
     <!-- footer -->
-    <footer class="container-fluid bg-color-propio">
+    <footer class="footer container-fluid bg-color-propio">
         <nav class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-4">             
             <div class="col mb-3">
                 <a href="../index.html" class="d-flex justify-content-center align-items-start mb-3">

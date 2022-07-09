@@ -77,3 +77,169 @@
         @include btn;
     }
 }
+
+//page01 nosotros
+.introi--page1 {
+    @extend .introi;
+
+    .intro__itemspg1 {
+        background-color: map-get($colores, opacity-bg);
+        text-shadow: map-get($colores, text-shadow1);
+
+        h1 {
+            font: $fuente-acento-intro;
+        }
+    }       
+}
+
+.seccion1__pg1 {
+    background-color: map-get($colores, blanco);
+
+    .foto1__pg1 {
+        width: 40%;
+        height: auto;
+    }
+
+    .pg1__title {
+        font: $fuente-acento-seccion;
+    }
+
+}
+
+.seccion2__pg1 {
+    background-color: map-get($colores, blanco);
+
+    .pg1__title2 {
+        font: $fuente-acento-seccion;
+    
+    }
+}
+
+
+//page02 productos
+.introi--page2 {
+    @extend .introi;
+
+    .intro__itemspg2 {
+        background-color: map-get($colores, opacity-bg);
+        text-shadow: map-get($colores, text-shadow1);
+
+        h1 {
+            font: $fuente-acento-intro;
+        }
+    }   
+}
+
+.stockpg1 {
+    background-color: map-get($colores, blanco);
+
+    .pg2__title {
+        font: $fuente-acento-seccion;
+    }
+
+    .pg2__item {
+        filter: grayscale(1);
+        &:hover {
+            filter: none;
+        }
+    }
+
+    .pg2__btn {
+        @include btn;
+    }
+}
+
+//page03 servicios
+.introi--page3 {
+    @extend .introi;
+
+    .intro__itemspg3 {
+        background-color: map-get($colores, opacity-bg);
+        text-shadow: map-get($colores, text-shadow1);
+
+        h1 {
+            font: $fuente-acento-intro;
+        }
+    }   
+}
+
+.seccion__pg3 {
+    background-color: map-get($colores, blanco);
+
+    .pg3__title {
+        font: $fuente-acento-seccion;
+    }
+
+}
+
+.contactus__pg3 {
+    background-color: map-get($colores, secundario);
+}
+
+.pg3__btn {
+    @include btn;
+    width: 150px;
+}
+
+/* Animación */
+@keyframes efecto {
+    0% {
+        background-color:map-get($colores, hover);
+    }
+    50% {
+        background-color: map-get($colores, 1rio-complementario);
+        transition: ease-in-out;
+    }
+    100% {
+        background-color:map-get($colores, 2rio-complemetario2);
+    }
+}
+
+.contactus__pg3 {
+    background-color:map-get($colores, 2rio-complemetario1);
+    animation: efecto 1s linear 0s infinite alternate;
+}
+
+
+//page03 servicios
+.introi--page4 {
+    @extend .introi;
+
+    .intro__itemspg4 {
+        background-color: map-get($colores, opacity-bg);
+        text-shadow: map-get($colores, text-shadow1);
+
+        h1 {
+            font: $fuente-acento-intro;
+        }
+    }   
+}
+
+.contactus__pg4 {
+    background-color: map-get($colores, blanco);
+
+    .pg4__title {
+        font: $fuente-acento-seccion;
+    }
+
+    .pg4__subtitle {
+        font: $fuente-acento-seccion;
+    }
+
+    .pg4__btn {
+        @include btn;
+    }
+
+}
+
+.map__pg4 {
+
+    background-color: map-get($colores, blanco);
+
+    .pg4__title {
+        font: $fuente-acento-seccion;
+    }
+
+    
+
+}

@@ -11,7 +11,7 @@ $colores: (
     opacity-bg: rgba(0, 0, 0, 0.35),
     text-shadow1: rgb(11, 11, 11) 2px 2px 1px,
     gradiente-navbar:linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%),
-    gradiente-body: linear-gradient(315deg, $color-primario 0%, $color-1rio-complementario 74%),
+    gradiente-body: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%),
 );
 
 
@@ -24,3 +24,21 @@ $fuente-acento-footer: normal 20px/2 'Pacifico', cursive;
 
 //Media
 $tablet:768px;
+
+// Mixin boton
+@mixin btn {
+    display: inline-block;
+    width: 120px;
+    padding: 4px 8px;
+    border-radius: 14px;
+    text-decoration: none;
+    text-align: center;    
+    color: map-get($colores, blanco);
+    background-color: map-get($colores, negro);
+
+    &:hover {
+        color: map-get($colores, negro);
+        background-color: map-get($colores, hover);
+
+    } 
+}
