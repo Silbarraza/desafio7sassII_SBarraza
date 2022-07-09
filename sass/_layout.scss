@@ -14,3 +14,14 @@
 
 //page1
 
+#base__pg1 {
+    background-color: map-get($colores, primario);
+    background-image: map-get($colores, gradiente-body);
+
+    @import 'header';
+
+   
+
+    @import 'footer';
+
+}

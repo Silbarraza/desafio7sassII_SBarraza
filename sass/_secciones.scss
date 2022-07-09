@@ -1,15 +1,3 @@
-/* Header */
-.header {
-    background-color: map-get($colores, secundario);
-    background-image: map-get($colores, gradiente-navbar);
-
-    .mi-logo {
-        width: 100px;
-        height: auto;
-        padding: 4px 0;
-    }
-}
-
 /* Sección intro */
 .introi {
     height: 300px;
@@ -88,25 +76,4 @@
     .btn--seccion {
         @include btn;
     }
-}
-
-/* Footer */
-.footer {
-    background-color: map-get($colores, secundario);
-    background-image: map-get($colores, gradiente-navbar);
-
-    .mi-logo--footer {
-        @extend .mi-logo;
-        background-color: red;
-    }
-
-    &__info h5 {
-        font: $fuente-acento-footer;
-    }
-
-    &__info ul li a:hover {
-        color: map-get($colores, negro);
-        text-decoration: underline;
-    }
-
 }
