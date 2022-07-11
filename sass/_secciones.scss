@@ -130,7 +130,7 @@
     }   
 }
 
-.stockpg1 {
+.stockpg2 {
     background-color: map-get($colores, blanco);
 
     .pg2__title {
@@ -148,6 +148,21 @@
         @include btn;
     }
 }
+
+//Media queries tablet
+
+@media (max-width:$tablet) {
+    .stockpg2 .pg2__item {
+        filter: none;
+    }
+}
+
+/* @media (max-width:$mobile) {
+    .pg2__item {
+        filter: none;
+    }
+}
+ */
 
 //page03 servicios
 .introi--page3 {

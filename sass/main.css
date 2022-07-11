@@ -14,6 +14,12 @@
   /* Sección 1 Productos */
   /* Seccion 2 Equipo */
   /* Seccion 3 Ubicacion e info */
+  /* @media (max-width:$mobile) {
+      .pg2__item {
+          filter: none;
+      }
+  }
+   */
   /* Animación */
   /* Footer */
 }
@@ -148,19 +154,19 @@
 #base .introi--page2 .intro__itemspg2 h1 {
   font: normal 60px/2 "Pacifico", cursive;
 }
-#base .stockpg1 {
+#base .stockpg2 {
   background-color: white;
 }
-#base .stockpg1 .pg2__title {
+#base .stockpg2 .pg2__title {
   font: normal 32px/1 "Pacifico", cursive;
 }
-#base .stockpg1 .pg2__item {
+#base .stockpg2 .pg2__item {
   filter: grayscale(1);
 }
-#base .stockpg1 .pg2__item:hover {
+#base .stockpg2 .pg2__item:hover {
   filter: none;
 }
-#base .stockpg1 .pg2__btn {
+#base .stockpg2 .pg2__btn {
   display: inline-block;
   width: 120px;
   padding: 4px 8px;
@@ -170,9 +176,14 @@
   color: white;
   background-color: black;
 }
-#base .stockpg1 .pg2__btn:hover {
+#base .stockpg2 .pg2__btn:hover {
   color: black;
   background-color: #FCDEA4;
+}
+@media (max-width: 768px) {
+  #base .stockpg2 .pg2__item {
+    filter: none;
+  }
 }
 #base .introi--page3 .intro__itemspg3 {
   background-color: rgba(0, 0, 0, 0.35);
@@ -293,6 +304,12 @@
   /* Sección 1 Productos */
   /* Seccion 2 Equipo */
   /* Seccion 3 Ubicacion e info */
+  /* @media (max-width:$mobile) {
+      .pg2__item {
+          filter: none;
+      }
+  }
+   */
   /* Animación */
   /* Footer */
 }
@@ -427,19 +444,19 @@
 #base__pg01 .introi--page2 .intro__itemspg2 h1 {
   font: normal 60px/2 "Pacifico", cursive;
 }
-#base__pg01 .stockpg1 {
+#base__pg01 .stockpg2 {
   background-color: white;
 }
-#base__pg01 .stockpg1 .pg2__title {
+#base__pg01 .stockpg2 .pg2__title {
   font: normal 32px/1 "Pacifico", cursive;
 }
-#base__pg01 .stockpg1 .pg2__item {
+#base__pg01 .stockpg2 .pg2__item {
   filter: grayscale(1);
 }
-#base__pg01 .stockpg1 .pg2__item:hover {
+#base__pg01 .stockpg2 .pg2__item:hover {
   filter: none;
 }
-#base__pg01 .stockpg1 .pg2__btn {
+#base__pg01 .stockpg2 .pg2__btn {
   display: inline-block;
   width: 120px;
   padding: 4px 8px;
@@ -449,9 +466,14 @@
   color: white;
   background-color: black;
 }
-#base__pg01 .stockpg1 .pg2__btn:hover {
+#base__pg01 .stockpg2 .pg2__btn:hover {
   color: black;
   background-color: #FCDEA4;
+}
+@media (max-width: 768px) {
+  #base__pg01 .stockpg2 .pg2__item {
+    filter: none;
+  }
 }
 #base__pg01 .introi--page3 .intro__itemspg3 {
   background-color: rgba(0, 0, 0, 0.35);
@@ -560,6 +582,12 @@
   /* Sección 1 Productos */
   /* Seccion 2 Equipo */
   /* Seccion 3 Ubicacion e info */
+  /* @media (max-width:$mobile) {
+      .pg2__item {
+          filter: none;
+      }
+  }
+   */
   /* Animación */
   /* Footer */
 }
@@ -694,19 +722,19 @@
 #base__pg02 .introi--page2 .intro__itemspg2 h1 {
   font: normal 60px/2 "Pacifico", cursive;
 }
-#base__pg02 .stockpg1 {
+#base__pg02 .stockpg2 {
   background-color: white;
 }
-#base__pg02 .stockpg1 .pg2__title {
+#base__pg02 .stockpg2 .pg2__title {
   font: normal 32px/1 "Pacifico", cursive;
 }
-#base__pg02 .stockpg1 .pg2__item {
+#base__pg02 .stockpg2 .pg2__item {
   filter: grayscale(1);
 }
-#base__pg02 .stockpg1 .pg2__item:hover {
+#base__pg02 .stockpg2 .pg2__item:hover {
   filter: none;
 }
-#base__pg02 .stockpg1 .pg2__btn {
+#base__pg02 .stockpg2 .pg2__btn {
   display: inline-block;
   width: 120px;
   padding: 4px 8px;
@@ -716,9 +744,14 @@
   color: white;
   background-color: black;
 }
-#base__pg02 .stockpg1 .pg2__btn:hover {
+#base__pg02 .stockpg2 .pg2__btn:hover {
   color: black;
   background-color: #FCDEA4;
+}
+@media (max-width: 768px) {
+  #base__pg02 .stockpg2 .pg2__item {
+    filter: none;
+  }
 }
 #base__pg02 .introi--page3 .intro__itemspg3 {
   background-color: rgba(0, 0, 0, 0.35);
@@ -827,6 +860,12 @@
   /* Sección 1 Productos */
   /* Seccion 2 Equipo */
   /* Seccion 3 Ubicacion e info */
+  /* @media (max-width:$mobile) {
+      .pg2__item {
+          filter: none;
+      }
+  }
+   */
   /* Animación */
   /* Footer */
 }
@@ -961,19 +1000,19 @@
 #base__pg03 .introi--page2 .intro__itemspg2 h1 {
   font: normal 60px/2 "Pacifico", cursive;
 }
-#base__pg03 .stockpg1 {
+#base__pg03 .stockpg2 {
   background-color: white;
 }
-#base__pg03 .stockpg1 .pg2__title {
+#base__pg03 .stockpg2 .pg2__title {
   font: normal 32px/1 "Pacifico", cursive;
 }
-#base__pg03 .stockpg1 .pg2__item {
+#base__pg03 .stockpg2 .pg2__item {
   filter: grayscale(1);
 }
-#base__pg03 .stockpg1 .pg2__item:hover {
+#base__pg03 .stockpg2 .pg2__item:hover {
   filter: none;
 }
-#base__pg03 .stockpg1 .pg2__btn {
+#base__pg03 .stockpg2 .pg2__btn {
   display: inline-block;
   width: 120px;
   padding: 4px 8px;
@@ -983,9 +1022,14 @@
   color: white;
   background-color: black;
 }
-#base__pg03 .stockpg1 .pg2__btn:hover {
+#base__pg03 .stockpg2 .pg2__btn:hover {
   color: black;
   background-color: #FCDEA4;
+}
+@media (max-width: 768px) {
+  #base__pg03 .stockpg2 .pg2__item {
+    filter: none;
+  }
 }
 #base__pg03 .introi--page3 .intro__itemspg3 {
   background-color: rgba(0, 0, 0, 0.35);
@@ -1094,6 +1138,12 @@
   /* Sección 1 Productos */
   /* Seccion 2 Equipo */
   /* Seccion 3 Ubicacion e info */
+  /* @media (max-width:$mobile) {
+      .pg2__item {
+          filter: none;
+      }
+  }
+   */
   /* Animación */
   /* Footer */
 }
@@ -1228,19 +1278,19 @@
 #base__pg04 .introi--page2 .intro__itemspg2 h1 {
   font: normal 60px/2 "Pacifico", cursive;
 }
-#base__pg04 .stockpg1 {
+#base__pg04 .stockpg2 {
   background-color: white;
 }
-#base__pg04 .stockpg1 .pg2__title {
+#base__pg04 .stockpg2 .pg2__title {
   font: normal 32px/1 "Pacifico", cursive;
 }
-#base__pg04 .stockpg1 .pg2__item {
+#base__pg04 .stockpg2 .pg2__item {
   filter: grayscale(1);
 }
-#base__pg04 .stockpg1 .pg2__item:hover {
+#base__pg04 .stockpg2 .pg2__item:hover {
   filter: none;
 }
-#base__pg04 .stockpg1 .pg2__btn {
+#base__pg04 .stockpg2 .pg2__btn {
   display: inline-block;
   width: 120px;
   padding: 4px 8px;
@@ -1250,9 +1300,14 @@
   color: white;
   background-color: black;
 }
-#base__pg04 .stockpg1 .pg2__btn:hover {
+#base__pg04 .stockpg2 .pg2__btn:hover {
   color: black;
   background-color: #FCDEA4;
+}
+@media (max-width: 768px) {
+  #base__pg04 .stockpg2 .pg2__item {
+    filter: none;
+  }
 }
 #base__pg04 .introi--page3 .intro__itemspg3 {
   background-color: rgba(0, 0, 0, 0.35);
